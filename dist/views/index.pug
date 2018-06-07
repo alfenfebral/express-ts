@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Realtime Voting
+    link(rel="stylesheet", href="style.css")
+  body
+    div(class="title")
+      h1 Welcome to Realtime Voting
+    div(class="nav")
+      a(class="voting", href="#") Voting &nbsp;
+      a(class="statistics", href="#") Statistics
+    div(class="box")
+      div(class="box-items")
+        a(class="vote-javascript", href="javascript:;")
+          img(src="https://static.memrise.com/img/400sqf/from/uploads/course_photos/3146044000171223183557.png")
+          h3 Javascript
+      div(class="box-items")
+        a(class="vote-php", href="javascript:;")
+          img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0ceBUwjNd4QP1AZEb8dKaAvgXZ2G1iCQDta90KofPLy13B16v")
+          h3 PHP
+    canvas(id="vote-results", width="600", height="500")
